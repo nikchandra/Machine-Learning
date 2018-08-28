@@ -1,0 +1,21 @@
+->Language Used: python 2.7
+
+-> To run the code successfully pre-install open_cv library in the python environment
+
+->packages used: cv2, numpy
+
+->paramenters used: Max iterations and Epsilon
+
+-> We gave the following arguments for the cv2.kmeans"
+	termination_criteria =cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER(stop the iteration if specified accuracy, epsilon, is reache met or if the specified number of iterations, max_iter.)
+	max_iter = 10 (An integer specifying maximum number of iterations.)
+	epsilon = 1.0 (Required accuracy)
+	attempts = 10
+	flags = cv2.KMEANS_RANDOM_CENTERS
+
+Clustered Images Folder:
+imagefile - number of clusters
+
+cluster_image5 - 4
+cluster_image1 - 6
+cluster_image4 - 8
