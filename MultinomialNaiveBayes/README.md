@@ -4,10 +4,10 @@ Command to run program
 --------------------------------
 py naivebayes.py pathToTrainingData pathToTestingData
 
-example 
+Example 
 py naivebayes.py 20news-bydate/20news-bydate-train 20news-bydate/20news-bydate-test
 
-requirements
+Requirements
 ---------------------------------
 stop_words.txt need to be in the same directory as naivebayes.py
 The data set can be downloaded from the link http://qwone.com/~jason/20Newsgroups/20news-bydate.tar.gz
